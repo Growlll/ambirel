@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<title>Ambirel</title>
+</head>
+<body>
+
+	<div class="main" id="fullpage">
+
+			<section data-anchor="first" class="section first">
+				<header class="header">
+					<a href="/" class="header__wrap"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+				</header>
+				<h1 class="first__logo"><img class="first__img" src="imgs/logo-main.png" alt="Логотип"></h1>
+
+				<div class="container first__container">
+					<nav class="nav">
+						<a href="#cases" class="nav__link">Кейсы</a>
+						<a href="#feedback-info" class="nav__link">Контакты</a>
+						<a href="#working" class="nav__link">Как мы работаем</a>
+						<a href="#job" class="nav__link">Отделения компании</a>
+						<a href="#feedback" class="nav__link nav__link--always-active">Оставить заявку</a>
+					</nav>
+				</div>
+			</section>
+
+			<section data-anchor="about" class="section about" style="background-image: url('imgs/about-bg.png')">
+				<header class="header header--common header--visible">
+					<a href="/" class="header__wrap header__wrap--common"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+					<nav class="nav nav--common nav--hidden">
+						<a href="#cases" class="nav__link nav__link--header">Кейсы</a>
+						<a href="#feedback-info" class="nav__link nav__link--header">Контакты</a>
+						<a href="#working" class="nav__link nav__link--header">Как мы работаем</a>
+						<a href="#job" class="nav__link nav__link--header">Отделения компании</a>
+						<a href="#feedback" class="nav__link nav__link--header nav__link--always-active">Оставить заявку</a>
+					</nav>
+				</header>
+
+				<div class="container about__container container--size-stretch">
+					<div class="about__wrap">
+						<div class="about__inner">
+							<div class="about__count">35</div>
+							<div class="about__text">Партнёров работающих удалённо</div>
+						</div>
+						<div class="about__inner about__inner--column">
+							<div class="about__text">Более</div>
+							<div class="about__count about__count--margin">120 000</div>
+							<div class="about__text">Часов проведённых за кодом</div>
+						</div>
+						<div class="about__inner">
+							<div class="about__count">15</div>
+							<div class="about__text">Штатных сотрудников</div>
+						</div>
+						<div class="about__inner">
+							<div class="about__count">45</div>
+							<div class="about__text">Проектов закрыто за первые<br>100 дней 2020 года</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section data-anchor="feedback" class="section feedback" style="background-image: url('imgs/about-bg.png')">
+				<header class="header header--common header--visible">
+					<a href="/" class="header__wrap header__wrap--common"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+					<nav class="nav nav--common nav--hidden">
+						<a href="#cases" class="nav__link nav__link--header">Кейсы</a>
+						<a href="#feedback-info" class="nav__link nav__link--header">Контакты</a>
+						<a href="#working" class="nav__link nav__link--header">Как мы работаем</a>
+						<a href="#job" class="nav__link nav__link--header">Отделения компании</a>
+						<a href="#feedback" class="nav__link nav__link--header nav__link--always-active">Оставить заявку</a>
+					</nav>
+					<span class="header__current desktop-hidden">СВЯЗЬ</span>
+				</header>
+
+				<div class="container">
+					<h2 class="feedback__title">
+						<span class="mobile-hidden">Свяжитесь <br> с нами</span>
+						<span class="desktop-hidden">ОСТАВЬТЕ<br> ЗАЯВКУ</span>
+					</h2>
+
+					<div class="feedback__wrap">
+						<form action="" class="form" method="POST">
+
+							<div class="form__wrap">
+								<label class="form__label">
+									<input class="form__input" name="user_name" type="text" placeholder="Имя" required>
+								</label>
+
+								<label class="form__label">
+									<input class="form__input" name="user_phone" type="text" placeholder="Телефон" required>
+								</label>
+
+								<label class="form__label">
+									<textarea class="form__textarea" name="user_mess" rows="4" cols="30" placeholder="Напишите тут что нибудь" required></textarea>
+								</label>
+
+								<a href="/" class="form__politic">Политика конфиденциальности</a>
+							</div>
+
+							<button type="submit" class="btn form__btn">Отправить</button>
+
+						</form>
+
+
+					</div>
+				</div>
+
+					<div class="modal-thanks">
+						<div class="modal-thanks__wrap">
+							<button class="modal-thanks__close"></button>
+							<div class="title modal-thanks__title">Спасибо</div>
+							<div class="modal-thanks__text">За проявленный интерес к нашей работе. В ближайшее время с вами свяжутся наши специалисты</div>
+						</div>
+					</div>
+
+			</section>
+
+			<section data-anchor="cases" class="section cases">
+				<header class="header header--common header--visible">
+					<a href="/" class="header__wrap header__wrap--common"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+					<nav class="nav nav--common nav--hidden">
+						<a href="#cases" class="nav__link nav__link--header">Кейсы</a>
+						<a href="#feedback-info" class="nav__link nav__link--header">Контакты</a>
+						<a href="#working" class="nav__link nav__link--header">Как мы работаем</a>
+						<a href="#job" class="nav__link nav__link--header">Отделения компании</a>
+						<a href="#feedback" class="nav__link nav__link--header nav__link--always-active">Оставить заявку</a>
+					</nav>
+					<span class="header__current desktop-hidden">Кейсы</span>
+				</header>
+
+				<div class="swiper-container swiper-wrap">
+					<div class="swiper-wrapper swiper-desktop">
+
+							<div class="swiper-slide container-fluid cases__container-fluid cases__desktop">
+								<div class="swiper-container swiper-inner">
+									<div class="swiper-wrapper">
+
+										<div class="swiper-slide container-fluid cases__container-fluid" style="background-image: url('imgs/sushi-bg.png')">
+											<div class="container cases__container">
+												<div class="cases__wrap">
+													<div class="cases__inner">
+														<div class="cases__num">01</div>
+														<h2 class="cases__title">суши гурмэ</h2>
+														<div class="cases__text">Приложение для доставки вкуснейшей еды японской кухни. <br><br>Актуально для Google Play и AppStore</div>
+													</div>
+												</div>
+												<div class="cases__wrap cases__wrap--theme-night">
+													<div class="cases__inner">
+														<div class="cases__title cases__title--border">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</div>
+														<div class="cases__text cases__text--mb">Если у вас есть техническое задание, то будем работать по нему. Если нет - то составим, вам его бесплатно после подписания договора</div>
+														<a href="#feedback-info" class="btn cases__btn">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide container-fluid cases__container-fluid" style="background-image: url('imgs/building-bg.png')">
+											<div class="container cases__container">
+												<div class="cases__wrap">
+													<div class="cases__inner">
+														<div class="cases__num">01</div>
+														<h2 class="cases__title">ТРЁХГОРНАЯ МАНУФАКТУРА</h2>
+														<div class="cases__text">Приложение где встречаются арендатор и арендодатель. <br><br>Актуально для Google Play и AppStore</div>
+													</div>
+												</div>
+												<div class="cases__wrap cases__wrap--theme-night">
+													<div class="cases__inner">
+														<div class="cases__title cases__title--border">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</div>
+														<div class="cases__text cases__text--mb">Если у вас есть техническое задание, то будем работать по нему. Если нет - то составим, вам его бесплатно после подписания договора</div>
+														<a href="#feedback-info" class="btn cases__btn">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+									</div>
+								</div>
+							<div class="swiper-slide container-fluid cases__container-fluid cases__desktop">
+								<div class="swiper-container swiper-inner">
+									<div class="swiper-wrapper">
+
+										<div class="swiper-slide container-fluid cases__container-fluid" style="background-image: url('imgs/po-bg.jpg')">
+											<div class="container cases__container">
+												<div class="cases__wrap">
+													<div class="cases__inner">
+														<div class="cases__num">02</div>
+														<h2 class="cases__title">ПО ДЛЯ ООО МАБИУС</h2>
+														<div class="cases__text">Оцифровка данных экструдера для пищевого производства</div>
+													</div>
+												</div>
+												<div class="cases__wrap cases__wrap--theme-night">
+													<div class="cases__inner">
+														<div class="cases__title cases__title--border">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</div>
+														<div class="cases__text cases__text--mb">Пишем программное обспечение для оборудования, бизнеса. Это могут быть абсолютно и самое главное рабочие решения</div>
+														<a href="#feedback-info" class="btn cases__btn">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide container-fluid cases__container-fluid" style="background-image: url('imgs/metalurgiya-bg.png')">
+											<div class="container cases__container">
+												<div class="cases__wrap">
+													<div class="cases__inner">
+														<div class="cases__num">02</div>
+														<h2 class="cases__title">ПО ДЛЯ Кранового Завода Краснодар</h2>
+														<div class="cases__text">ПО которое регулирует работу производственных мощностей</div>
+													</div>
+												</div>
+												<div class="cases__wrap cases__wrap--theme-night">
+													<div class="cases__inner">
+														<div class="cases__title cases__title--border">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</div>
+														<div class="cases__text cases__text--mb">Пишем программное обспечение для оборудования, бизнеса. Это могут быть абсолютно и самое главное рабочие решения</div>
+														<a href="#feedback-info" class="btn cases__btn">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide container-fluid cases__container-fluid" style="background-image: url('imgs/vertolet-bg.png')">
+											<div class="container cases__container">
+												<div class="cases__wrap">
+													<div class="cases__inner">
+														<div class="cases__num">02</div>
+														<h2 class="cases__title">ПО для производства запчастей вертолётов</h2>
+														<div class="cases__text">Это ПО управляет системой контроля  качества производимых деталей</div>
+													</div>
+												</div>
+												<div class="cases__wrap cases__wrap--theme-night">
+													<div class="cases__inner">
+														<div class="cases__title cases__title--border">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</div>
+														<div class="cases__text cases__text--mb">Пишем программное обспечение для оборудования, бизнеса. Это могут быть абсолютно и самое главное рабочие решения</div>
+														<a href="#feedback-info" class="btn cases__btn">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="swiper-slide container-fluid cases__container-fluid cases__desktop">
+								<div class="swiper-container swiper-inner">
+									<div class="swiper-wrapper">
+
+										<div class="swiper-slide container-fluid cases__container-fluid" style="background-image: url('imgs/vr-bg.png')">
+											<div class="container cases__container">
+												<div class="cases__wrap">
+													<div class="cases__inner">
+														<div class="cases__num">03</div>
+														<h2 class="cases__title">ПО ДЛЯ HoloLens</h2>
+														<div class="cases__text">Разработана программа позволяющая</div>
+													</div>
+												</div>
+												<div class="cases__wrap cases__wrap--theme-night">
+													<div class="cases__inner">
+														<div class="cases__title cases__title--border">ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ</div>
+														<div class="cases__text cases__text--mb">
+															Пишем программное обспечения для VR. Под любые задачи
+															<br>
+															Воплотим все ваши фантазии в жизнь и они станут реальностью
+															<br>
+															Пускай и виртуальной :)
+														</div>
+														<a href="#feedback-info" class="btn cases__btn">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="swiper-slide container-fluid cases__container-fluid cases__desktop">
+								<div class="swiper-container swiper-inner">
+									<div class="swiper-wrapper">
+
+										<div class="swiper-slide container-fluid cases__container-fluid" style="background-image: url('imgs/ar-bg.png')">
+											<div class="container cases__container">
+												<div class="cases__wrap">
+													<div class="cases__inner">
+														<div class="cases__num">04</div>
+														<h2 class="cases__title">Создали AR интерфейс</h2>
+														<div class="cases__text">Разработана программа позволяющая</div>
+													</div>
+												</div>
+												<div class="cases__wrap cases__wrap--theme-night">
+													<div class="cases__inner">
+														<div class="cases__title cases__title--border">ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</div>
+														<div class="cases__text cases__text--mb">
+															AR (дополненная реальность) это не только маски в инстаграм.<br>
+															AR в скром времени может стать полноценным помошником человека в его самых обычных задачах
+														</div>
+														<a href="#feedback-info" class="btn cases__btn">заказать</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+
+					</div>
+
+					<div class="swiper-container swiper-mobile">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide swiper-slide--mobile" style="background-image: url('imgs/sushi-mobile-bg.png')">
+								<div class="container cases__mobile">
+									<div class="title title--mobile">Мобильные приложения</div>
+
+									<div class="cases__texts">
+										<button class="cases__tab cases__text cases__text--theme-blue">Суши Гурмэ</button>
+										<button class="cases__tab cases__text">Трёхгорная мануфактура</button>
+									</div>
+
+									<div id="sushi" class="cases__links cases__links--active">
+										<a href="https://play.google.com/store/apps/details?id=com.FoodSoul.MurmanskSushiGurme&hl=ru" class="cases__links-item">
+											Скачать на android
+										</a>
+										<a href="https://apps.apple.com/ru/app/%D1%81%D1%83%D1%88%D0%B8-%D0%B3%D1%83%D1%80%D0%BC%D0%B5/id1071077550" class="cases__links-item">
+											Скачать на IOS
+										</a>
+									</div>
+
+									<div id="manufactory" class="cases__links">
+										<a href="https://play.google.com/store/apps/details?id=com.inwill.tgm2&hl=ru" class="cases__links-item">
+											Скачать на android
+										</a>
+									</div>
+
+									<a href="#feedback-info" class="btn cases__btn cases__btn--mobile">заказать</a>
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide--mobile" style="background-image: url('imgs/building-mobile-bg.png')">
+								<div class="container cases__mobile">
+									<div class="title title--mobile">ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ</div>
+
+									<div class="cases__text cases__text--full-width">
+										<p>ПО для производства запчастей вертолётов</p>
+										<p>ПО для оцифровки данных экстредура</p>
+										<p>ПО для контроля качества производства промышленных кранов</p>
+									</div>
+
+									<button class="btn cases__btn cases__btn--mobile">заказать</button>
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide--mobile" style="background-image: url('imgs/building-mobile-bg.png')">
+								<div class="container cases__mobile">
+									<div class="title title--mobile">ДОПОЛНЕННАЯ РЕАЛЬНОСТЬ</div>
+
+									<div class="cases__text cases__text--full-width">
+										<p>Написали ПО для <br> HoloLens (очки VR)</p>
+									</div>
+
+									<a href="#feedback-info" class="btn cases__btn cases__btn--mobile">заказать</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="container container--buttons">
+						<div class="swiper-button-prev-inner"></div>
+						<div class="swiper-button-next-inner"></div>
+
+						<div class="swiper-button-prev-inner"></div>
+						<div class="swiper-button-next-inner"></div>
+
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+
+					<div class="container container--buttons-mobile">
+						<div class="swiper-button-prev-mobile"></div>
+						<div class="swiper-button-next-mobile"></div>
+					</div>
+
+				</div>
+
+			</section>
+
+			<section data-anchor="job" class="section job">
+				<header class="header header--common header--visible">
+					<a href="/" class="header__wrap header__wrap--common"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+					<nav class="nav nav--common nav--hidden">
+						<a href="#cases" class="nav__link nav__link--header">Кейсы</a>
+						<a href="#feedback-info" class="nav__link nav__link--header">Контакты</a>
+						<a href="#working" class="nav__link nav__link--header">Как мы работаем</a>
+						<a href="#job" class="nav__link nav__link--header">Отделения компании</a>
+						<a href="#feedback" class="nav__link nav__link--header nav__link--always-active">Оставить заявку</a>
+					</nav>
+					<span class="header__current desktop-hidden">О КОМПАНИИ</span>
+				</header>
+
+
+				<div class="swiper-container swiper-job">
+					<div class="swiper-wrapper">
+
+							<div class="swiper-slide container-fluid job__container-fluid" style="background-image: url('imgs/job-1-bg.png')">
+								<div class="container job__container">
+											<div class="job__wrap">
+												<h2 class="title job__title">НАПРАВЛЕНИЯ РАБОТЫ</h2>
+
+												<div class="job__inner">
+													<ul class="job__list">
+														<li class="job__item">Android</li>
+														<li class="job__item">Java</li>
+														<li class="job__item">VR</li>
+														<li class="job__item">IOS</li>
+														<li class="job__item">Node js</li>
+														<li class="job__item">AR</li>
+														<li class="job__item">Kotlin</li>
+														<li class="job__item">React Native</li>
+														<li class="job__item">Java Script</li>
+														<li class="job__item">C++</li>
+														<li class="job__item">Python</li>
+														<li class="job__item">C#</li>
+													</ul>
+
+													<div class="job__info">
+														<h2 class="job__info-title">ТЕХНИЧЕСКОЕ ОТДЕЛЕНИЕ</h2>
+														<div class="job__info-stars">
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+														</div>
+														<div class="job__info-text">Эти киборги из будущего готовы на всё. Абсолютно.</div>
+														<a href="#feedback-info" class="btn job__info-btn">связаться</a>
+													</div>
+												</div>
+											</div>
+										</div>
+								</div>
+
+							<div class="swiper-slide container-fluid job__container-fluid" style="background-image: url('imgs/job-2-bg.png')">
+								<div class="container job__container">
+											<div class="job__wrap">
+												<h2 class="title job__title">ЧТО ОНИ ДЕЛАЮТ</h2>
+
+												<div class="job__inner">
+													<div class="job__text">
+														Отделение продаж занимается поддержаниме текущих связей с нашими клиентами и партнёрами.<br><br> Так же это отделение каждый день увеличивает количество этих связей
+													</div>
+
+													<div class="job__info">
+														<div class="job__info-title">ТЕХНИЧЕСКОЕ ОТДЕЛЕНИЕ</div>
+														<div class="job__info-stars">
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+														</div>
+														<div class="job__info-text">Эти киборги из будущего готовы на всё. Абсолютно.</div>
+														<a href="#feedback-info" class="btn job__info-btn">связаться</a>
+													</div>
+												</div>
+											</div>
+										</div>
+								</div>
+
+							<div class="swiper-slide container-fluid job__container-fluid" style="background-image: url('imgs/job-3-bg.png')">
+								<div class="container job__container">
+											<div class="job__wrap">
+												<div class="title job__title">АЗБУКА УПАРВЛЕНИЯ</div>
+
+												<div class="job__inner">
+													<div class="job__text">
+														Отделение управление занимаетсяs тем, что каждый день управляет взаимоотношениями как внутри команды так и во вне
+													</div>
+
+													<div class="job__info">
+														<div class="job__info-title">ТЕХНИЧЕСКОЕ ОТДЕЛЕНИЕ</div>
+														<div class="job__info-stars">
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+															<span class="job__star"><img src="imgs/icons/star.svg" alt=""></span>
+														</div>
+														<div class="job__info-text">Эти киборги из будущего готовы на всё. Абсолютно.</div>
+														<a href="#feedback-info" class="btn job__info-btn">связаться</a>
+													</div>
+												</div>
+											</div>
+										</div>
+								</div>
+
+
+					</div>
+
+					<div class="container job__btns">
+						<div class="swiper-button-prev-job"></div>
+						<div class="swiper-button-next-job"></div>
+					</div>
+				</div>
+			</section>
+
+			<section data-anchor="working" class="section working" style="background-image: url('imgs/working-bg.svg')">
+				<header class="header header--common header--visible">
+					<a href="/" class="header__wrap header__wrap--common"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+					<nav class="nav nav--common nav--hidden">
+						<a href="#cases" class="nav__link nav__link--header">Кейсы</a>
+						<a href="#feedback-info" class="nav__link nav__link--header">Контакты</a>
+						<a href="#working" class="nav__link nav__link--header">Как мы работаем</a>
+						<a href="#job" class="nav__link nav__link--header">Отделения компании</a>
+						<a href="#feedback" class="nav__link nav__link--header nav__link--always-active">Оставить заявку</a>
+					</nav>
+					<span class="header__current desktop-hidden">КАК МЫ РАБОТАЕМ?</span>
+				</header>
+
+				<div class="container working__container">
+					<div class="title mobile-hidden">Как мы работаем</div>
+						<div class="swiper-container swiper-working">
+							<div class="working__cards swiper-wrapper">
+
+								<div class="working__card swiper-slide">
+									<h3 class="working__card-title">Оцениваем стоимость</h3>
+									<div class="working__card-text">Производим оценку вашего проекта или идеи. Это не занимает много времени. На	практике это занимает около от 1 часа
+									</div>
+								</div>
+								<div class="working__card swiper-slide">
+									<h3 class="working__card-title">Составляем тех. задание</h3>
+									<div class="working__card-text">Этот этап может занимает от 2 до 5 рабочих дней. Если проект нужно сделать быстро,
+										то мы начнём работать составим ТЗ к самому первому этапу
+									</div>
+								</div>
+								<div class="working__card swiper-slide">
+									<h3 class="working__card-title">Подписываем договор</h3>
+									<div class="working__card-text">Типовой договор вы можете запросить у специалистов наших отделений</div>
+								</div>
+								<div class="working__card swiper-slide">
+								<h3 class="working__card-title">Выполняем обязательства</h3>
+								<div class="working__card-text">На этом эатпе мы выполняем свои обязательства, а заказчик - свои. <br> Согласно условий догвора</div>
+							</div>
+
+							</div>
+					</div>
+				</div>
+
+				<div class="swiper-button-prev-working"></div>
+				<div class="swiper-button-next-working"></div>
+			</section>
+
+			<section data-anchor="feedback-info" class="section feedback-info" style="background-image: url('imgs/feedback-info-bg.png');">
+				<header class="header header--common header--visible">
+					<a href="/" class="header__wrap header__wrap--common"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+					<nav class="nav nav--common nav--hidden">
+						<a href="#cases" class="nav__link nav__link--header">Кейсы</a>
+						<a href="#feedback-info" class="nav__link nav__link--header">Контакты</a>
+						<a href="#working" class="nav__link nav__link--header">Как мы работаем</a>
+						<a href="#job" class="nav__link nav__link--header">Отделения компании</a>
+						<a href="#feedback" class="nav__link nav__link--header nav__link--always-active">Оставить заявку</a>
+					</nav>
+					<span class="header__current desktop-hidden">КОНТАКТЫ</span>
+				</header>
+
+
+				<div class="container">
+
+					<div class="title mobile-hidden">ОБРАТНАЯ<br> СВЯЗЬ</div>
+
+					<div class="feedback-info__wrap">
+						<div class="feedback-info__left-inner">
+							<div class="title feedback-info__title desktop-hidden">Контакты</div>
+
+							<div class="feedback-info__inner">
+								<div class="feedback-info__name">Василий</div>
+								<a href="tel:+789991396933" class="feedback-info__phone">8 999 139 69 33</a>
+							</div>
+							<div class="feedback-info__inner">
+								<div class="feedback-info__name">Никита</div>
+								<a href="tel:+789816867305" class="feedback-info__phone">8 981 686 73 05</a>
+							</div>
+							<div class="feedback-info__inner">
+								<a href="mailto:info@ambirel.ru" class="feedback-info__email">info@ambirel.ru</a>
+							</div>
+						</div>
+
+
+						<div class="feedback-info__right-inner">
+							<form action="" class="form feedback-info__form" method="POST">
+
+								<div class="form__wrap form__wrap--theme-transparent">
+									<label class="form__label">
+										<input class="form__input" name="user_name" type="text" placeholder="Имя" required>
+									</label>
+
+									<label class="form__label">
+										<input class="form__input" name="user_phone" type="text" placeholder="Телефон" required>
+									</label>
+
+									<label class="form__label">
+										<textarea class="form__textarea" name="user_mess" rows="4" cols="30" placeholder="Напишите тут что нибудь" required></textarea>
+									</label>
+
+									<a href="/" class="form__politic">Политика конфиденциальности</a>
+								</div>
+
+								<button class="btn form__btn">Отправить</button>
+
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<footer data-anchor="footer" class="section footer">
+				<header class="header header--common header--visible footer__header">
+					<a href="/" class="header__wrap header__wrap--common"><img src="imgs/logo.png" class="header__logo" alt="Логотип"></a>
+					<span class="header__current desktop-hidden">ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ</span>
+				</header>
+
+				<div class="container footer__container">
+					<div class="footer__wrap">
+						<div class="footer__logo">
+							<img src="imgs/logo.png" class="footer__logo-img" alt="Ambirel">
+						</div>
+						<div class="footer__text footer__text--night">Полезные IT решения</div>
+						<div class="footer__text">Работаем по всему миру</div>
+						<div class="footer__phones">
+							<a href="tel:+789991396933" class="footer__phone">8 999 139 69 33</a>
+							<a href="tel:+789916399294" class="footer__phone">8 991 639 92 94</a>
+						</div>
+						<a href="mailto:info@ambirel.ru" class="footer__email">info@ambirel.ru</a>
+					</div>
+
+
+					<div class="footer__wrap">
+						<p class="footer__text footer__text--night footer__text--uppercase">Юридическая информация</p>
+						<p class="footer__text">ИП Салтанюк Никита Андреевич</p>
+						<p class="footer__text">ОГРН: 319565800034761</p>
+						<p class="footer__text">ИНН: 5612 13036767</p>
+					</div>
+
+
+					<div class="footer__wrap">
+						<p class="footer__text footer__text--night footer__text--uppercase">принимаем к оплате</p>
+
+						<div class="footer__imgs">
+							<div class="footer__img-wrap">
+								<img src="imgs/icons/mastercard.svg" alt="Master card" class="footer__img">
+							</div>
+							<div class="footer__img-wrap">
+								<img src="imgs/icons/visa.svg" alt="Visa" class="footer__img">
+							</div>
+							<div class="footer__img-wrap">
+								<img src="imgs/icons/pay.svg" alt="Pay" class="footer__img">
+							</div>
+							<div class="footer__img-wrap">
+								<img src="imgs/icons/tinkoff.svg" alt="Tinkoff" class="footer__img">
+							</div>
+							<div class="footer__img-wrap">
+								<img src="imgs/icons/paypal.svg" alt="PayPal" class="footer__img">
+							</div>
+							<div class="footer__img-wrap">
+								<img src="imgs/icons/yandex-money.png" alt="Яндекс Деньги" class="footer__img">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</footer>
+
+	</div>
+
+	<script src="js/index.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+	<script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
